@@ -1,28 +1,31 @@
 * Tasks
-** TODO C++外星人系统图片，视频重新截取
+** DONE C++外星人系列图片，视频重新截取
+   CLOSED: <2017-01-04 周三 14:30>
    <2017-01-04 周三 10:00>
 
-** DONE C++二校
+** DONE C++二校,回应不明之处
    CLOSED: [2017-01-04 周三 14:43] SCHEDULED: <2017-01-04 周三 13:10>
    李丹
 
 ** DONE 继续取截取视频
    CLOSED: [2017-01-04 周三 18:02] SCHEDULED: <2017-01-04 周三 14:30>
    第九章没有拆分视频
-
-** TODO 休息一下
+   
+** DONE 休息一下
+   CLOSED: [2017-01-05 周四 09:07]
 
 ** TODO 学习的工具 [0%]
    SCHEDULED: <2017-01-04 周三 22:55>
 
 *** TODO emacs
     
-**** spacemacs
+**** TODO spacemacs
 
 ***** spacemacs
 
 ****** distribution 
-        + spacemacs :: 开箱即用 ::
+        + spacemacs 
+           开箱即用
         + spacemacs-base
 
 ****** .spacemacs
@@ -42,7 +45,38 @@
         不可以直接使用 package-install，退出以后，包就不存在了。正确方式是自己添加到.spacemacs->
 ******* 先把所有的配置放在 user-config 里面
 
-**** org-mode
+
+**** TODO org-mode
+
 
 *** TODO git
-
+    
+** DONE 出 gong
+   CLOSED: [2017-01-05 周四 09:07]
+ Entered on <2017-01-05 周四 07:29>
+** DONE 取得显示器分辨率
+   CLOSED: [2017-01-05 周四 09:07]
+ Entered on <2017-01-05 周四 07:38>
+ #+BEGIN_SRC lisp
+   (car (cdr (cdr (cdr (car (car (display-monitor-attributes-list)))))))
+   (cadr (cdr (cdr (cdr (car (car (display-monitor-attributes-list)))))))
+ #+END_SRC
+** DONE 总结视频拆分内容
+   CLOSED: [2017-01-05 周四 11:42]
+ Entered on <2017-01-05 周四 08:40>
+** DONE 困了，出去休息一下
+   CLOSED: [2017-01-05 周四 13:10]
+Entered on <2017-01-05 周四 13:03>
+** DONE 第 05 章练一练 Entered on <2017-01-05 周四 13:10>
+   CLOSED: [2017-01-05 周四 13:36]
+** DONE 临时去学习 emacs24-starter-kit Entered On <2017-01-05 周四 13:22>
+   CLOSED: [2017-01-05 周四 13:27]  放弃了
+** DONE 第 06 章的练一练 Entered on <2017-01-05 周四 13:36>
+   CLOSED: [2017-01-05 周四 15:45]
+** TODO 第 07 章的练一练 Entered on <2017-01-05 周四 15:45>
+   :LOGBOOK:
+   CLOCK: [2017-01-05 周四 17:17]--[2017-01-05 周四 18:01] =>  0:44
+   CLOCK: [2017-01-05 周四 16:33]--[2017-01-05 周四 17:04] =>  0:31
+   :END:
+** TODO 录制视频片段 1.3.2 增加一个 PPT 简单说几十秒 Entered on <2017-01-05 周四 16:03>
+   SCHEDULED: <2017-01-06 周五 10:00>
