@@ -1,17 +1,13 @@
 * Tasks
 ** TODO 学习的工具 [0%]
    SCHEDULED: <2017-01-04 周三 22:55>
-
-*** TODO emacs [33%]
-    
-**** TODO spacemacs [0%]
-
-***** TODO spacemacs [%]
+*** TODO emacs
+**** TODO spacemacs
+***** TODO spacemacs
 ****** distribution 
         + spacemacs 
           开箱即用
         + spacemacs-base
-
 ****** .spacemacs
 ******* user-init()
          加上镜像的地址,从 emacs china 寻找镜像
@@ -28,25 +24,87 @@
 ******* 安装 package
         不可以直接使用 package-install，退出以后，包就不存在了。正确方式是自己添加到.spacemacs->
 ******* 先把所有的配置放在 user-config 里面
-
-
-**** TODO org-mode [0%]
+**** TODO org-mode
 ***** TODO org-mode 添加任务提醒
       内容请看这个网页
       https://www.cnblogs.com/ibgo/p/4508802.html
+***** TODO 捕获传发存档
+      :LOGBOOK:
+      CLOCK: <2017-01-07 周六 13:22>--<2017-01-07 周六 13:53> =>  0:31
+      :END:
+      1. 捕获
+         1) [ ] 设置截取位置
+            #+BEGIN_SRC lisp
+              (setq org-default-notes-file "d:/git/workspace/notes.org")
+              (define-key global-map "\C-cc" 'org-capture)
+            #+END_SRC
+         2) [ ] 键 
+            |---------+----------------------|
+            | C-c c   | 启动一个捕获过程     |
+            | C-c C-c | 保存结束             |
+            | C-c C-w | 指定保存地址，并结束 |
+            | C-c C-k | 取消，结束           |
+            |---------+----------------------|
+         3) [ ] 模板
+            #+BEGIN_SRC elisp
+              '(org-capture-templates
+                (quote (
+                        ;; 任务
+                        ("t" "Todo"    entry (file+headline "d:/git/workspace/tasks.org" "Tasks") "* TODO %? Entered on %T\n")
+                        ;; 日记
+                        ("j" "Journal" entry (file+datetree "d:/git/workspace/journal.org")       "* %? Entered on %U\n %i\n %a")
+                        ;; 书单
+                        ("b" "Book"    entry (file+headline "d:/git/workspace/books.org" "Books") "* TODO 《%?》 Entered on %T\n")
+                        )))
+            #+END_SRC
 
+      2. 转送笔记
+         | C-c C-w     | 转送光标处的条目或者区域。org-refile-targets |
+
+      3. 归档
+         |----------------------+------------------------------------------------------------|
+         | C-c C-x C-a          | 用变量 orgarchive-default-command 指定的命令归档当前的项。 |
+         | C-c C-x C-s 或 C-c $ | 将光标处的子树归档至 org-archive-localtion 指定的位置      |
+         |----------------------+------------------------------------------------------------|
+         
+***** DONE Block until (two) is done
+      CLOSED: [2017-01-07 周六 17:13]
+****** DONE one
+       CLOSED: [2017-01-07 周六 17:12]
+****** DONE two
+       CLOSED: [2017-01-07 周六 17:12]
+       这样设置
+       #+BEGIN_SRC elisp
+         (setq org-enforce-todo-dependencies)
+       #+END_SRC
+***** DONE 子任务必须按顺序 Block
+      CLOSED: [2017-01-07 周六 17:12]
+      :PROPERTIES:
+      :ORDERED:  t
+      :END:
+****** DONE a
+       CLOSED: [2017-01-07 周六 17:12]
+****** DONE b, needs to wait for (a)
+       CLOSED: [2017-01-07 周六 17:12]
+****** DONE c, needs to wait for (a) and (b)
+       CLOSED: [2017-01-07 周六 17:12]
 **** DONE Emacs 中的日程户理 Entered on <2017-01-06 周五 14:02>
      CLOSED: [2017-01-06 周五 14:10] SCHEDULED: <2017-01-06 周五 14:03>
      :LOGBOOK:
      CLOCK: [2017-01-06 周五 14:03]--[2017-01-06 周五 14:08] =>  0:05
      :END:
-
      http://blog.csdn.net/lujun9972/article/details/46002855
-
-     
-*** TODO git [%]
-    
+*** TODO git
+*** TODO Linux
 ** TODO 第 08 章的练一练 Entered on <2017-01-06 周五 17:48>
    :LOGBOOK:
    CLOCK: [2017-01-06 周五 17:49]--[2017-01-06 周五 18:06] =>  0:17
    :END:
+   
+
+
+** TODO 测试计时功能
+
+** CANCEL 测试关键字颜色
+   CLOSED: [2017-01-07 周六 16:17]
+
