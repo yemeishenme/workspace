@@ -79,8 +79,8 @@
 Entered on <2017-01-05 周四 13:03>
 ** DONE 第 05 章练一练 Entered on <2017-01-05 周四 13:10>
    CLOSED: [2017-01-05 周四 13:36]
-** DONE 临时去学习 emacs24-starter-kit Entered On <2017-01-05 周四 13:22>
-   CLOSED: [2017-01-05 周四 13:27]  放弃了
+** CANCEL 临时去学习 emacs24-starter-kit Entered On <2017-01-05 周四 13:22>
+   CLOSED: [2017-01-07 周六 12:29]
 ** DONE 第 06 章的练一练 Entered on <2017-01-05 周四 13:36>
    CLOSED: [2017-01-05 周四 15:45]
 ** DONE 第 07 章的练一练 Entered on <2017-01-05 周四 15:45>
@@ -104,3 +104,4 @@ Entered on <2017-01-05 周四 13:03>
    :LOGBOOK:
    CLOCK: [2017-01-06 周五 17:49]--[2017-01-06 周五 18:06] =>  0:17
    :END:
+
