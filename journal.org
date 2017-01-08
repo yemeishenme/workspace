@@ -1,0 +1,7 @@
+
+* 2017
+** 2017-01 一月
+*** 2017-01-08 星期日
+**** 今天想在家里看书 Entered on [2017-01-08 周日 09:25]
+     想看的书太多，无从下手。
+    [[file:~/.spacemacs.d/init.el::("j"%20"Journal"%20entry%20(file+datetree%20"d:/git/workspace/journal.org"%20"%E6%97%A5%E8%AE%B0")%20"*%20%25?%20Entered%20on%20%25U\n%20%25i\n%20%25a")]]

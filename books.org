@@ -1,3 +1,20 @@
 * Books
-** TODO 《计算机程序的构造和解释》 Entered on <2017-01-07 周六 12:20>
+** TODO 《计算机程序的构造和解释》 [0%] Entered on <2017-01-07 周六 12:20>
+*** TODO 第 1 章 构造过程抽象
+*** TODO 第 2 章 构造数据抽象
+*** TODO 第 3 章 模块化，对象和状态
+*** TODO 第 4 章 元语言抽象
+*** TODO 第 5 章 寄存器机器里的计算
 ** TODO 《How to design programs》 Entered on <2017-01-07 周六 13:03>
+** TODO 《黄帝内经》 Entered on <2017-01-08 周日 08:26>
+** TODO 《道德经》 Entered on <2017-01-08 周日 08:26>
+** TODO 《山海经》 Entered on <2017-01-08 周日 08:27>
+** TODO 《史记》 Entered on <2017-01-08 周日 08:27>
+** TODO 《论语》 Entered on <2017-01-08 周日 08:27>
+** TODO 《逍遥游》 Entered on <2017-01-08 周日 08:27>
+** TODO 《人物志》 Entered on <2017-01-08 周日 08:27>
+** TODO 《菜根谭》 Entered on <2017-01-08 周日 08:27>
+** TODO 《増广贤文》 Entered on <2017-01-08 周日 08:27>
+** TODO 《心经》 Entered on <2017-01-08 周日 08:27>
+* 书
+
