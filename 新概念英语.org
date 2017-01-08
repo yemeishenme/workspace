@@ -22,7 +22,7 @@
    'Do you always get up so late? It's one a'clock!'
 ** TODO 03 Please send me a card Entered on <2017-01-08 周日 13:06>
    :LOGBOOK:
-   CLOCK: [2017-01-08 周日 13:20]
+   CLOCK: [2017-01-08 周日 13:20]--[2017-01-08 周日 13:39] =>  0:19
    CLOCK: [2017-01-08 周日 13:06]--[2017-01-08 周日 13:20] =>  0:14
    :END:
    Postcards always spoil my holidays.
