@@ -88,7 +88,7 @@
 ****** DONE c, needs to wait for (a) and (b)
        CLOSED: [2017-01-07 周六 17:12]
 **** DONE Emacs 中的日程户理 Entered on <2017-01-06 周五 14:02>
-     CLOSED: [2017-01-06 周五 14:10] SCHEDULED: <2017-01-06 周五 14:03>
+     CLOSED: [2017-01-06 周五 14:10] SCHEDULED: [2017-01-06 周五 14:03]
      :LOGBOOK:
      CLOCK: [2017-01-06 周五 14:03]--[2017-01-06 周五 14:08] =>  0:05
      :END:
