@@ -1,9 +1,38 @@
 * 书
-** TODO 《计算机程序的构造和解释》 [0%] Entered on <2017-01-07 周六 12:20>
-*** TODO 前言等
-    DEADLINE: <2017-01-09 周一 22:40> SCHEDULED: <2017-01-09 周一 21:00>
+** TODO 《计算机程序的构造和解释》 [16%] Entered on <2017-01-07 周六 12:20>
+*** CANCEL 前言等
+    CLOSED: [2017-01-09 周一 20:54] DEADLINE: <2017-01-09 周一 22:40> SCHEDULED: <2017-01-09 周一 21:00>
+    :LOGBOOK:
+    CLOCK: [2017-01-09 周一 20:47]--[2017-01-09 周一 20:54] =>  0:07
+    :END:
+**** Unofficial Texinfo Format 
+     
 *** TODO 第 1 章 构造过程抽象
     DEADLINE: <2017-01-10 周二 22:40> SCHEDULED: <2017-01-10 周二 21:00>
+    :LOGBOOK:
+    CLOCK: [2017-01-09 周一 20:55]--[2017-01-09 周一 21:51] =>  0:56
+    :END:
+    Building Abstractions with Procedures
+    
+**** 1.1 The Elements of Programming
+     three mechanisms
+     + primitive expressions
+     + means of combination
+     + means of abstraction
+***** 1.1.1 Expressions
+
+**** 1.2
+
+**** 
+
+**** 
+
+**** 
+
+**** 
+
+**** 
+
 *** TODO 第 2 章 构造数据抽象
 *** TODO 第 3 章 模块化，对象和状态
 *** TODO 第 4 章 元语言抽象

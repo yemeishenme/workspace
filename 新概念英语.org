@@ -1,5 +1,6 @@
 * 新概念英语第 2 册
-** TODO 02 Breakfast or lunch? Entered on <2017-01-08 周日 12:00>
+** DONE 02 Breakfast or lunch? Entered on <2017-01-08 周日 12:00>
+   CLOSED: [2017-01-09 周一 22:11]
    :LOGBOOK:
    CLOCK: [2017-01-08 周日 12:00]--[2017-01-08 周日 13:05] =>  1:05
    :END:
