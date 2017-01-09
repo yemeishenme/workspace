@@ -1,6 +1,9 @@
 * 书
 ** TODO 《计算机程序的构造和解释》 [0%] Entered on <2017-01-07 周六 12:20>
+*** TODO 前言等
+    DEADLINE: <2017-01-09 周一 22:40> SCHEDULED: <2017-01-09 周一 21:00>
 *** TODO 第 1 章 构造过程抽象
+    DEADLINE: <2017-01-10 周二 22:40> SCHEDULED: <2017-01-10 周二 21:00>
 *** TODO 第 2 章 构造数据抽象
 *** TODO 第 3 章 模块化，对象和状态
 *** TODO 第 4 章 元语言抽象
@@ -37,7 +40,7 @@
 *** DONE 01 力量之旅 [100%]
     CLOSED: [2017-01-08 周日 18:06]
    :LOGBOOK:
-   CLOCK: [2017-01-08 周日 17:47]
+   CLOCK: [2017-01-08 周日 17:47]--[2017-01-08 周日 18:00] =>  0:13
    :END:
 **** DONE 启动
      CLOSED: [2017-01-08 周日 17:53]
@@ -170,4 +173,9 @@
 **** TODO 炉火纯青 6 次/周 [%]
 **** TODO 闭关修炼
 **** TODO 登峰造极
-*** TODO 
+** TODO 《田英章.千字文》 [0%]Entered on <2017-01-09 周一 09:15>
+** TODO 《数学与猜想》-- G.波利亚 [0%]Entered on <2017-01-09 周一 09:15>
+   SCHEDULED: <2017-02-01 周三 07:40>
+** TODO 《Programming Languages: Application and Interpretation》-- Shriram Krishnamurthi [0%]Entered on <2017-01-09 周一 09:16>
+** TODO 《Essentials Of Programming Languages》 [0%]Entered on <2017-01-09 周一 09:17>
+** TODO 《算法英文版第 4 版》 [0%]Entered on <2017-01-09 周一 09:21>
